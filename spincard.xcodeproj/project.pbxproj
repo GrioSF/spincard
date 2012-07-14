@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1016F1515B203C500550009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1016F1415B203C500550009 /* UIKit.framework */; };
+		D1016F1715B203C500550009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1016F1615B203C500550009 /* Foundation.framework */; };
+		D1016F1915B203C500550009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1016F1815B203C500550009 /* CoreGraphics.framework */; };
+		D1016F1F15B203C500550009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1016F1D15B203C500550009 /* InfoPlist.strings */; };
+		D1016F2115B203C500550009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1016F2015B203C500550009 /* main.m */; };
+		D1016F2515B203C500550009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1016F2415B203C500550009 /* AppDelegate.m */; };
+		D1016F2815B203C500550009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1016F2715B203C500550009 /* ViewController.m */; };
+		D1016F2B15B203C500550009 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1016F2915B203C500550009 /* ViewController_iPhone.xib */; };
+		D1016F2E15B203C500550009 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1016F2C15B203C500550009 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1016F1015B203C500550009 /* spincard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spincard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1016F1415B203C500550009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1016F1615B203C500550009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1016F1815B203C500550009 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1016F1C15B203C500550009 /* spincard-Info.plist */ = {isa = PBXFileReference; path = "spincard-Info.plist"; sourceTree = "<group>"; };
+		D1016F1E15B203C500550009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1016F2015B203C500550009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1016F2215B203C500550009 /* spincard-Prefix.pch */ = {isa = PBXFileReference; path = "spincard-Prefix.pch"; sourceTree = "<group>"; };
+		D1016F2315B203C500550009 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1016F2415B203C500550009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1016F2615B203C500550009 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D1016F2715B203C500550009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1016F2A15B203C500550009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D1016F2D15B203C500550009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1016F0D15B203C500550009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1016F1515B203C500550009 /* UIKit.framework in Frameworks */,
+				D1016F1715B203C500550009 /* Foundation.framework in Frameworks */,
+				D1016F1915B203C500550009 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1016F0515B203C500550009 = {
+			isa = PBXGroup;
+			children = (
+				D1016F1A15B203C500550009 /* spincard */,
+				D1016F1315B203C500550009 /* Frameworks */,
+				D1016F1115B203C500550009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1016F1115B203C500550009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1016F1015B203C500550009 /* spincard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1016F1315B203C500550009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1016F1415B203C500550009 /* UIKit.framework */,
+				D1016F1615B203C500550009 /* Foundation.framework */,
+				D1016F1815B203C500550009 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1016F1A15B203C500550009 /* spincard */ = {
+			isa = PBXGroup;
+			children = (
+				D1016F2315B203C500550009 /* AppDelegate.h */,
+				D1016F2415B203C500550009 /* AppDelegate.m */,
+				D1016F2615B203C500550009 /* ViewController.h */,
+				D1016F2715B203C500550009 /* ViewController.m */,
+				D1016F2915B203C500550009 /* ViewController_iPhone.xib */,
+				D1016F2C15B203C500550009 /* ViewController_iPad.xib */,
+				D1016F1B15B203C500550009 /* Supporting Files */,
+			);
+			path = spincard;
+			sourceTree = "<group>";
+		};
+		D1016F1B15B203C500550009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1016F1C15B203C500550009 /* spincard-Info.plist */,
+				D1016F1D15B203C500550009 /* InfoPlist.strings */,
+				D1016F2015B203C500550009 /* main.m */,
+				D1016F2215B203C500550009 /* spincard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1016F0F15B203C500550009 /* spincard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1016F3115B203C500550009 /* Build configuration list for PBXNativeTarget "spincard" */;
+			buildPhases = (
+				D1016F0C15B203C500550009 /* Sources */,
+				D1016F0D15B203C500550009 /* Frameworks */,
+				D1016F0E15B203C500550009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spincard;
+			productName = spincard;
+			productReference = D1016F1015B203C500550009 /* spincard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1016F0715B203C500550009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Grio;
+			};
+			buildConfigurationList = D1016F0A15B203C500550009 /* Build configuration list for PBXProject "spincard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1016F0515B203C500550009;
+			productRefGroup = D1016F1115B203C500550009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1016F0F15B203C500550009 /* spincard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1016F0E15B203C500550009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1016F1F15B203C500550009 /* InfoPlist.strings in Resources */,
+				D1016F2B15B203C500550009 /* ViewController_iPhone.xib in Resources */,
+				D1016F2E15B203C500550009 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1016F0C15B203C500550009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1016F2115B203C500550009 /* main.m in Sources */,
+				D1016F2515B203C500550009 /* AppDelegate.m in Sources */,
+				D1016F2815B203C500550009 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1016F1D15B203C500550009 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1016F1E15B203C500550009 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1016F2915B203C500550009 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1016F2A15B203C500550009 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D1016F2C15B203C500550009 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1016F2D15B203C500550009 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1016F2F15B203C500550009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1016F3015B203C500550009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1016F3215B203C500550009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spincard/spincard-Prefix.pch";
+				INFOPLIST_FILE = "spincard/spincard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1016F3315B203C500550009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spincard/spincard-Prefix.pch";
+				INFOPLIST_FILE = "spincard/spincard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1016F0A15B203C500550009 /* Build configuration list for PBXProject "spincard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1016F2F15B203C500550009 /* Debug */,
+				D1016F3015B203C500550009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1016F3115B203C500550009 /* Build configuration list for PBXNativeTarget "spincard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1016F3215B203C500550009 /* Debug */,
+				D1016F3315B203C500550009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1016F0715B203C500550009 /* Project object */;
+}
