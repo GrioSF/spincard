@@ -46,7 +46,7 @@
     
     [UIView transitionWithView: card
                       duration: SPIN_DURATION / 2
-                       options: UIViewAnimationOptionTransitionFlipFromLeft
+                       options: UIViewAnimationOptionTransitionFlipFromLeft + UIViewAnimationOptionCurveLinear
                     animations: ^{
                         cardFront.hidden = YES;
                         cardBack.hidden = NO;
@@ -55,7 +55,7 @@
                         
                         [UIView transitionWithView: card
                                           duration:  SPIN_DURATION / 2
-                                           options: UIViewAnimationOptionTransitionFlipFromLeft
+                                           options: UIViewAnimationOptionTransitionFlipFromLeft + UIViewAnimationOptionCurveLinear
                                         animations: ^{
                                             cardBack.hidden = YES;
                                             cardFront.hidden = NO;
