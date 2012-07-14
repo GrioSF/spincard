@@ -15,7 +15,8 @@
 		D1016F2515B203C500550009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1016F2415B203C500550009 /* AppDelegate.m */; };
 		D1016F2815B203C500550009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1016F2715B203C500550009 /* ViewController.m */; };
 		D1016F2B15B203C500550009 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1016F2915B203C500550009 /* ViewController_iPhone.xib */; };
-		D1016F2E15B203C500550009 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1016F2C15B203C500550009 /* ViewController_iPad.xib */; };
+		D1016F3615B203EC00550009 /* card_back_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1016F3415B203EC00550009 /* card_back_1.png */; };
+		D1016F3715B203EC00550009 /* card_back_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1016F3515B203EC00550009 /* card_back_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		D1016F1415B203C500550009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D1016F1615B203C500550009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1016F1815B203C500550009 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D1016F1C15B203C500550009 /* spincard-Info.plist */ = {isa = PBXFileReference; path = "spincard-Info.plist"; sourceTree = "<group>"; };
+		D1016F1C15B203C500550009 /* spincard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spincard-Info.plist"; sourceTree = "<group>"; };
 		D1016F1E15B203C500550009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1016F2015B203C500550009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1016F2215B203C500550009 /* spincard-Prefix.pch */ = {isa = PBXFileReference; path = "spincard-Prefix.pch"; sourceTree = "<group>"; };
-		D1016F2315B203C500550009 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1016F2215B203C500550009 /* spincard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spincard-Prefix.pch"; sourceTree = "<group>"; };
+		D1016F2315B203C500550009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1016F2415B203C500550009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1016F2615B203C500550009 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D1016F2615B203C500550009 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D1016F2715B203C500550009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D1016F2A15B203C500550009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		D1016F2D15B203C500550009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		D1016F3415B203EC00550009 /* card_back_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back_1.png; sourceTree = "<group>"; };
+		D1016F3515B203EC00550009 /* card_back_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 		D1016F0515B203C500550009 = {
 			isa = PBXGroup;
 			children = (
+				D1016F3415B203EC00550009 /* card_back_1.png */,
+				D1016F3515B203EC00550009 /* card_back_2.png */,
 				D1016F1A15B203C500550009 /* spincard */,
 				D1016F1315B203C500550009 /* Frameworks */,
 				D1016F1115B203C500550009 /* Products */,
@@ -84,7 +88,6 @@
 				D1016F2615B203C500550009 /* ViewController.h */,
 				D1016F2715B203C500550009 /* ViewController.m */,
 				D1016F2915B203C500550009 /* ViewController_iPhone.xib */,
-				D1016F2C15B203C500550009 /* ViewController_iPad.xib */,
 				D1016F1B15B203C500550009 /* Supporting Files */,
 			);
 			path = spincard;
@@ -154,7 +157,8 @@
 			files = (
 				D1016F1F15B203C500550009 /* InfoPlist.strings in Resources */,
 				D1016F2B15B203C500550009 /* ViewController_iPhone.xib in Resources */,
-				D1016F2E15B203C500550009 /* ViewController_iPad.xib in Resources */,
+				D1016F3615B203EC00550009 /* card_back_1.png in Resources */,
+				D1016F3715B203EC00550009 /* card_back_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +192,6 @@
 				D1016F2A15B203C500550009 /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		D1016F2C15B203C500550009 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1016F2D15B203C500550009 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -255,6 +251,7 @@
 				GCC_PREFIX_HEADER = "spincard/spincard-Prefix.pch";
 				INFOPLIST_FILE = "spincard/spincard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,6 +263,7 @@
 				GCC_PREFIX_HEADER = "spincard/spincard-Prefix.pch";
 				INFOPLIST_FILE = "spincard/spincard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
